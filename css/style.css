@@ -145,17 +145,20 @@ header{
 @media print { 
 
   /*Requirement 13*/
-  background-image:none;
+  body{
+    background-image:none;
+  }
   /*Requirement 14*/
   .nav{
     width: 100%;
   }
   /*Requirement 15*/
   .nav_links{
-
+    justify-content: space-between;
   }
   /*Requirement 16*/
   .price{
+    margin-top: auto;
 
   }
   /*Requirement 17*/
